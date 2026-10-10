@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 420" width="1180" height="420">
+<defs>
+  <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050505"/><stop offset="1" stop-color="#0B0907"/></linearGradient>
+  <linearGradient id="gold2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#715A40"/><stop offset=".4" stop-color="#E8D4B2"/><stop offset=".7" stop-color="#9B7C57"/><stop offset="1" stop-color="#EFE4D2"/></linearGradient>
+  <filter id="mist"><feGaussianBlur stdDeviation="24"/></filter>
+  <filter id="soft2"><feGaussianBlur stdDeviation="2"/></filter>
+</defs>
+<rect width="1180" height="420" rx="18" fill="url(#bg2)"/>
+<path d="M-40 308 C126 188 254 190 380 300 C497 401 590 379 690 241 C810 75 974 60 1220 158" fill="none" stroke="#D9C6A4" stroke-opacity=".08" stroke-width="110" filter="url(#mist)"/>
+<path d="M-25 333 C145 248 277 201 395 292 C502 375 586 354 694 234 C803 112 933 94 1210 171" fill="none" stroke="url(#gold2)" stroke-width="11" stroke-linecap="round" filter="url(#soft2)">
+  <animate attributeName="d" dur="15s" repeatCount="indefinite" values="M-25 333 C145 248 277 201 395 292 C502 375 586 354 694 234 C803 112 933 94 1210 171;M-25 318 C152 233 289 218 401 299 C514 381 604 344 707 224 C824 88 959 108 1210 182;M-25 333 C145 248 277 201 395 292 C502 375 586 354 694 234 C803 112 933 94 1210 171"/>
+</path>
+<path d="M-20 347 C149 269 279 229 396 311 C507 389 603 365 704 248 C811 123 949 120 1216 194" fill="none" stroke="#F3E9D8" stroke-opacity=".35" stroke-width="2"/>
+<g font-family="Arial,Helvetica,sans-serif">
+  <text x="66" y="75" fill="#BBAA8F" font-size="12" letter-spacing="4">SELECTED WORLDS</text>
+  <g fill="#F4EFE7">
+    <text x="68" y="150" font-size="29" letter-spacing="1">CASA SOMBRERO</text>
+    <text x="414" y="150" font-size="29" letter-spacing="1">ORBITAIL</text>
+    <text x="786" y="150" font-size="29" letter-spacing="1">SYNAPSEHR</text>
+  </g>
+  <g fill="#968B7D" font-size="13">
+    <text x="68" y="181">cinematic web experience</text>
+    <text x="414" y="181">web + desktop product</text>
+    <text x="786" y="181">multi-tenant HRMS SaaS</text>
+  </g>
+  <g fill="#CDBA98" font-size="11" letter-spacing="1.5">
+    <text x="68" y="245">ATMOSPHERE / MOTION / DEPTH</text>
+    <text x="414" y="245">MACOS / WINDOWS / PRODUCT</text>
+    <text x="786" y="245">WORKFLOWS / ROLES / SCALE</text>
+  </g>
+</g>
+<path d="M67 274 C166 246 238 250 323 279" fill="none" stroke="#5E4C38" stroke-width="5" stroke-linecap="round"/>
+<path d="M413 274 C507 241 585 250 673 280" fill="none" stroke="#7B674C" stroke-width="5" stroke-linecap="round"/>
+<path d="M785 274 C888 242 981 247 1092 281" fill="none" stroke="#A28A65" stroke-width="5" stroke-linecap="round"/>
+<g fill="#6E6254" font-family="Arial,Helvetica,sans-serif" font-size="11">
+  <text x="68" y="340">IMMERSIVE / LIVE</text>
+  <text x="414" y="340">ACTIVE DEVELOPMENT</text>
+  <text x="786" y="340">IN DEVELOPMENT</text>
+</g>
+</svg>
