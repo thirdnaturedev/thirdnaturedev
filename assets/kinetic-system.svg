@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+<defs>
+  <linearGradient id="g" x1="0" x2="1"><stop stop-color="#081016"/><stop offset="1" stop-color="#0d1712"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="360" rx="24" fill="url(#g)" stroke="#1d3a42"/>
+<text x="48" y="48" fill="#5EEAD4" font-size="12" font-family="ui-monospace,Menlo,Consolas,monospace">SYSTEM / CREATIVE ENGINE</text>
+<text x="48" y="86" fill="#F8FAFC" font-size="28" font-weight="700" font-family="Inter,Arial,sans-serif">Build across interfaces, products, and platforms.</text>
+<text x="48" y="115" fill="#94A3B8" font-size="13" font-family="ui-monospace,Menlo,Consolas,monospace">software × design × motion × experimentation</text>
+
+<g transform="translate(260 235)">
+  <circle r="72" fill="none" stroke="#1b3e45" stroke-dasharray="4 8"/>
+  <circle r="118" fill="none" stroke="#163038"/>
+  <circle r="8" fill="#5EEAD4" filter="url(#glow)"/>
+  <g><circle cx="0" cy="-72" r="6" fill="#A3E635"/><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite"/></g>
+  <g><circle cx="0" cy="-118" r="5" fill="#F59E0B"/><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="10s" repeatCount="indefinite"/></g>
+  <text x="0" y="30" text-anchor="middle" fill="#F8FAFC" font-size="11" font-family="ui-monospace,Menlo,Consolas,monospace">THIRD NATURE</text>
+</g>
+
+<g font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12">
+  <rect x="470" y="150" width="200" height="64" rx="12" fill="#0d171d" stroke="#20424a"/><text x="490" y="177" fill="#64748B">IMMERSIVE WEB</text><text x="490" y="199" fill="#F8FAFC">motion / depth / interaction</text>
+  <rect x="690" y="150" width="200" height="64" rx="12" fill="#0d171d" stroke="#20424a"/><text x="710" y="177" fill="#64748B">SaaS SYSTEMS</text><text x="710" y="199" fill="#F8FAFC">multi-tenant / workflows</text>
+  <rect x="910" y="150" width="200" height="64" rx="12" fill="#0d171d" stroke="#20424a"/><text x="930" y="177" fill="#64748B">DESKTOP</text><text x="930" y="199" fill="#F8FAFC">macOS / Windows / native</text>
+  <rect x="470" y="234" width="200" height="64" rx="12" fill="#0d171d" stroke="#20424a"/><text x="490" y="261" fill="#64748B">STACK</text><text x="490" y="283" fill="#5EEAD4">TS / JS / Python / Swift</text>
+  <rect x="690" y="234" width="200" height="64" rx="12" fill="#0d171d" stroke="#20424a"/><text x="710" y="261" fill="#64748B">PRODUCT</text><text x="710" y="283" fill="#A3E635">build / test / ship</text>
+  <rect x="910" y="234" width="200" height="64" rx="12" fill="#0d171d" stroke="#20424a"/><text x="930" y="261" fill="#64748B">SIGNAL</text><text x="930" y="283" fill="#F59E0B">always experimenting</text>
+</g>
+<path d="M470 318 H1110" stroke="#19343b" stroke-width="2"/>
+<circle cx="470" cy="318" r="4" fill="#5EEAD4"><animate attributeName="cx" values="470;1110;470" dur="7s" repeatCount="indefinite"/></circle>
+</svg>
