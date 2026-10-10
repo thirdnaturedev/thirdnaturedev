@@ -1,0 +1,78 @@
+from __future__ import annotations
+import json, os, urllib.request
+from datetime import datetime, timezone
+from pathlib import Path
+
+USER = "thirdnaturedev"
+TOKEN = os.getenv("GITHUB_TOKEN", "")
+HEADERS = {"Accept": "application/vnd.github+json", "User-Agent": "thirdnature-profile-live-banner"}
+if TOKEN:
+    HEADERS["Authorization"] = f"Bearer {TOKEN}"
+    HEADERS["X-GitHub-Api-Version"] = "2022-11-28"
+
+def get_json(url: str):
+    req = urllib.request.Request(url, headers=HEADERS)
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return json.loads(r.read().decode("utf-8"))
+
+profile = get_json(f"https://api.github.com/users/{USER}")
+repos = get_json(f"https://api.github.com/users/{USER}/repos?per_page=100&sort=pushed")
+repos = [r for r in repos if not r.get("fork")]
+latest = repos[0]["name"] if repos else "building-next"
+public_repos = profile.get("public_repos", len(repos))
+followers = profile.get("followers", 0)
+following = profile.get("following", 0)
+updated = datetime.now(timezone.utc).strftime("%d %b %Y · %H:%M UTC")
+
+svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#05080d"/><stop offset=".55" stop-color="#09131a"/><stop offset="1" stop-color="#07110f"/></linearGradient>
+  <linearGradient id="line" x1="0" x2="1"><stop stop-color="#5EEAD4"/><stop offset=".55" stop-color="#A3E635"/><stop offset="1" stop-color="#F59E0B"/></linearGradient>
+  <radialGradient id="pulse"><stop stop-color="#5EEAD4" stop-opacity=".35"/><stop offset="1" stop-color="#5EEAD4" stop-opacity="0"/></radialGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#17303a" stroke-width="1" opacity=".36"/></pattern>
+</defs>
+<rect width="1200" height="430" rx="28" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="428" rx="27" fill="none" stroke="#1b3a41"/>
+<rect width="1200" height="430" rx="28" fill="url(#grid)" opacity=".58"/>
+<circle cx="240" cy="210" r="205" fill="url(#pulse)"><animate attributeName="r" values="150;215;150" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values=".25;.7;.25" dur="6s" repeatCount="indefinite"/></circle>
+
+<!-- orbital system -->
+<g transform="translate(240 214)">
+  <circle r="118" fill="none" stroke="#21424a" stroke-width="1.2" stroke-dasharray="3 8"/>
+  <circle r="82" fill="none" stroke="#18353b" stroke-width="1"/>
+  <g><circle cx="0" cy="-118" r="7" fill="#5EEAD4" filter="url(#glow)"/><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="10s" repeatCount="indefinite"/></g>
+  <g><circle cx="82" cy="0" r="5" fill="#A3E635"/><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="7s" repeatCount="indefinite"/></g>
+  <g><circle cx="0" cy="-58" r="3.5" fill="#F59E0B"/><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/></g>
+  <text x="0" y="-8" text-anchor="middle" fill="#F8FAFC" font-size="27" font-family="ui-monospace,Menlo,Consolas,monospace" font-weight="700">TN</text>
+  <text x="0" y="18" text-anchor="middle" fill="#7dd3c7" font-size="10.5" font-family="ui-monospace,Menlo,Consolas,monospace">LIVE SYSTEM</text>
+</g>
+
+<!-- identity -->
+<text x="435" y="84" fill="#5EEAD4" font-size="13" font-family="ui-monospace,Menlo,Consolas,monospace">THIRD NATURE / LIVE PROFILE</text>
+<text x="435" y="136" fill="#F8FAFC" font-size="48" font-weight="800" font-family="Inter,Arial,sans-serif">FOR THINGS THAT</text>
+<text x="435" y="188" fill="#F8FAFC" font-size="48" font-weight="800" font-family="Inter,Arial,sans-serif">DON’T EXIST YET.</text>
+<line x1="435" y1="213" x2="1100" y2="213" stroke="url(#line)" stroke-width="2"><animate attributeName="x2" values="500;1100;500" dur="8s" repeatCount="indefinite"/></line>
+<text x="435" y="247" fill="#94A3B8" font-size="14" font-family="ui-monospace,Menlo,Consolas,monospace">CREATIVE DEVELOPER · FULL-STACK · SaaS · DESKTOP</text>
+
+<!-- live cards -->
+<g font-family="ui-monospace,Menlo,Consolas,monospace">
+  <rect x="435" y="276" width="158" height="72" rx="13" fill="#0c171d" stroke="#1c3941"/>
+  <text x="454" y="302" fill="#64748B" font-size="10">PUBLIC REPOS</text><text x="454" y="332" fill="#F8FAFC" font-size="23" font-weight="700">{public_repos}</text>
+  <rect x="606" y="276" width="158" height="72" rx="13" fill="#0c171d" stroke="#1c3941"/>
+  <text x="625" y="302" fill="#64748B" font-size="10">FOLLOWERS</text><text x="625" y="332" fill="#F8FAFC" font-size="23" font-weight="700">{followers}</text>
+  <rect x="777" y="276" width="158" height="72" rx="13" fill="#0c171d" stroke="#1c3941"/>
+  <text x="796" y="302" fill="#64748B" font-size="10">FOLLOWING</text><text x="796" y="332" fill="#F8FAFC" font-size="23" font-weight="700">{following}</text>
+  <rect x="948" y="276" width="152" height="72" rx="13" fill="#0c171d" stroke="#1c3941"/>
+  <text x="967" y="302" fill="#64748B" font-size="10">LATEST SIGNAL</text><text x="967" y="331" fill="#A3E635" font-size="13" font-weight="700">{latest[:18]}</text>
+</g>
+
+<!-- live pulse + ticker -->
+<circle cx="435" cy="385" r="5" fill="#A3E635"><animate attributeName="opacity" values="1;.2;1" dur="1.2s" repeatCount="indefinite"/></circle>
+<text x="450" y="390" fill="#CBD5E1" font-size="12" font-family="ui-monospace,Menlo,Consolas,monospace">LIVE · synced from GitHub · {updated}</text>
+<g opacity=".9"><path d="M105 383 C150 350 195 415 240 382 S330 352 375 383" fill="none" stroke="#5EEAD4" stroke-width="2"><animate attributeName="d" dur="3.2s" repeatCount="indefinite" values="M105 383 C150 350 195 415 240 382 S330 352 375 383;M105 383 C150 410 195 350 240 384 S330 413 375 383;M105 383 C150 350 195 415 240 382 S330 352 375 383"/></path></g>
+</svg>'''
+
+Path("assets").mkdir(exist_ok=True)
+Path("assets/live-banner.svg").write_text(svg, encoding="utf-8")
+print(f"Generated assets/live-banner.svg | repos={public_repos} followers={followers} latest={latest}")
