@@ -1,0 +1,35 @@
+name: Generate Master Profile Banner
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/generate_master_profile.py"
+      - ".github/workflows/master-banner.yml"
+  schedule:
+    - cron: "15 3 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install generator dependencies
+        run: pip install pillow numpy scipy
+      - name: Build theme-aware animated banners
+        run: python scripts/generate_master_profile.py
+      - name: Commit generated assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dark.svg light.svg data/profile_points.npz
+          git diff --cached --quiet || git commit -m "Refresh animated profile banner [skip ci]"
+          git push
