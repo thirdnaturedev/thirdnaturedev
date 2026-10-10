@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:06141B,35:0F766E,70:14B8A6,100:F59E0B&text=THIRD%20NATURE&fontColor=F8FAFC&fontSize=54&fontAlignY=38&desc=For%20Things%20That%20Don%E2%80%99t%20Exist%20Yet.&descAlignY=59&animation=fadeIn" width="100%" alt="Third Nature" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=850&color=5EEAD4&center=true&vCenter=true&width=950&lines=Creative+Developer+%C2%B7+Full-Stack+Developer+%C2%B7+SaaS+Developer;Immersive+web+%C2%B7+SaaS+systems+%C2%B7+desktop+products;Building+interfaces+that+feel+alive;Building+%C2%B7+Experimenting+%C2%B7+Shipping" alt="Animated intro" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=850&color=5EEAD4&center=true&vCenter=true&width=950&lines=Creative+Developer+%C2%B7+Full-Stack+Developer+%C2%B7+SaaS+Developer;Immersive+web+%C2%B7+SaaS+systems+%C2%B7+desktop+products;Designing+interfaces+that+feel+alive;Building+%C2%B7+Experimenting+%C2%B7+Shipping" alt="Animated intro" />
 
 <p>
   <img src="https://komarev.com/ghpvc/?username=thirdnaturedev&label=PROFILE+VIEWS&color=0f766e&style=for-the-badge" alt="Profile views" />
@@ -12,49 +12,32 @@
 
 </div>
 
-## ⚡ Mission Control
+## ⚡ Live System
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### `NOW.RUNNING`
-
-- Building immersive web experiences
-- Developing SaaS product systems
-- Exploring desktop products for macOS & Windows
-- Designing motion-first interfaces
-- Shipping experiments under **Third Nature**
-
-### `CURRENT.MODE`
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&pause=850&color=5EEAD4&width=430&lines=%24+boot+third_nature;%24+load+creative_systems;%24+sync+web+%2B+saas+%2B+desktop;%24+status+%3D+shipping" alt="Live system terminal" />
 
 ```text
-BUILDING      ██████████  active
-EXPERIMENTING █████████░  active
-SHIPPING      ████████░░  active
+creative.web      ● online
+saas.systems      ● building
+desktop.products  ● active
+motion.interface  ● experimenting
+portfolio         ◌ incoming
 ```
 
 </td>
 <td width="50%" valign="top">
 
-### `SYSTEM.IDENTITY`
-
-**Third Nature**  
-Creative Developer · Full-Stack · SaaS
-
-**Focus**  
-Product engineering · Motion · Immersive UI · Systems
-
-**Tagline**  
-*For Things That Don’t Exist Yet.*
-
-### `SIGNAL`
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&pause=900&color=F59E0B&width=430&lines=THIRD+NATURE;Creative+%C2%B7+Full-Stack+%C2%B7+SaaS;Product+Engineering+%2B+Motion;For+Things+That+Don%E2%80%99t+Exist+Yet." alt="Identity terminal" />
 
 ```text
-web        ● online
-saas       ● online
-desktop    ● building
-portfolio  ◌ coming soon
+MODE       building / experimenting / shipping
+FOCUS      products / systems / motion / code
+SIGNAL     active
+CONTACT    wearethirdnature@gmail.com
 ```
 
 </td>
@@ -67,62 +50,29 @@ portfolio  ◌ coming soon
 
 <img src="https://skillicons.dev/icons?i=ts,js,python,swift,cs,nextjs,react,tailwind,nodejs,dotnet,supabase,postgres,mongodb,git,github,githubactions,figma,vscode,androidstudio&perline=10&theme=dark" alt="Technology stack" />
 
+<br/><br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=700&color=94A3B8&center=true&vCenter=true&width=900&lines=TypeScript+%C2%B7+JavaScript+%C2%B7+Python+%C2%B7+Swift+%C2%B7+C%23;Next.js+%C2%B7+React+%C2%B7+Tailwind+%C2%B7+Node.js+%C2%B7+.NET;Supabase+%C2%B7+PostgreSQL+%C2%B7+MongoDB+%C2%B7+GitHub+Actions" alt="Animated stack text" />
+
 </div>
 
-## 🚀 Selected Work
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-### 🌮 Casa Sombrero
-**Immersive restaurant experience**
-
-Cinematic desktop experience + mobile ordering flow with scene-driven interaction and motion.
-
-`Next.js` `React` `TypeScript` `Three.js`
-
-[Showcase](https://github.com/thirdnaturedev/casa-sombrero-showcase) · [Live](https://casa-sombrero.vercel.app)
-
-</td>
-<td width="33%" valign="top">
-
-### 🛰️ Orbitail
-**Web + desktop product**
-
-A product spanning web, macOS and Windows experiences with active product engineering work.
-
-`Desktop` `macOS` `Windows`
-
-**Active development**
-
-</td>
-<td width="33%" valign="top">
-
-### 🧩 SynapseHR
-**Multi-tenant HRMS SaaS**
-
-Employee operations, workflows, role-based access, payroll-oriented systems and scalable architecture.
-
-`SaaS` `HR Tech` `Full Stack`
-
-**In development**
-
-</td>
-</tr>
-</table>
-
-## 🌌 Contribution Universe
+## 🚀 Animated Projects
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=thirdnaturedev&bg_color=0B1220&color=5EEAD4&line=F59E0B&point=A3E635&area=true&hide_border=true&custom_title=Third%20Nature%20Contribution%20Signal" width="100%" alt="Contribution activity graph" />
+<a href="https://github.com/thirdnaturedev/casa-sombrero-showcase"><img width="49%" src="https://raw.githubusercontent.com/thirdnaturedev/thirdnaturedev/main/assets/casa-animated.svg" alt="Casa Sombrero animated project card" /></a>
+<img width="49%" src="https://raw.githubusercontent.com/thirdnaturedev/thirdnaturedev/main/assets/orbitail-animated.svg" alt="Orbitail animated project card" />
 
-<br/>
+<br/><br/>
 
-<img src="./profile-3d-contrib/profile-season-animate.svg" width="100%" alt="Animated 3D contribution calendar" />
+<img width="49%" src="https://raw.githubusercontent.com/thirdnaturedev/thirdnaturedev/main/assets/synapsehr-animated.svg" alt="SynapseHR animated project card" />
+<a href="https://casa-sombrero.vercel.app"><img width="49%" src="https://capsule-render.vercel.app/api?type=rect&height=180&color=0:111827,100:0F766E&text=LIVE%20EXPERIENCE&fontColor=F8FAFC&fontSize=28&desc=Casa%20Sombrero%20%E2%86%92%20Open%20Project&descAlignY=68&animation=twinkling" alt="Casa Sombrero live experience" /></a>
 
-<br/>
+</div>
+
+## 🐍 Contribution Motion
+
+<div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/thirdnaturedev/thirdnaturedev/output/github-snake-dark.svg" />
@@ -154,7 +104,7 @@ Employee operations, workflows, role-based access, payroll-oriented systems and 
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1200&color=94A3B8&center=true&vCenter=true&width=800&lines=identity+%2F+systems+%2F+motion+%2F+code;Third+Nature+%C2%B7+For+Things+That+Don%E2%80%99t+Exist+Yet." alt="Footer typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=94A3B8&center=true&vCenter=true&width=850&lines=identity+%2F+systems+%2F+motion+%2F+code;Third+Nature+%C2%B7+For+Things+That+Don%E2%80%99t+Exist+Yet.;building+%2F+experimenting+%2F+shipping" alt="Footer typing" />
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:06141B,50:0F766E,100:F59E0B" width="100%" alt="Footer" />
 
