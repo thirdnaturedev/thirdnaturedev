@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#05080d"/><stop offset="1" stop-color="#08130f"/></linearGradient>
+  <filter id="g"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#19383d" opacity=".55"/></pattern>
+</defs>
+<rect width="1200" height="520" rx="26" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="518" rx="25" fill="none" stroke="#1b3a41"/>
+<rect width="1200" height="520" rx="26" fill="url(#dots)"/>
+<text x="46" y="52" fill="#5EEAD4" font-size="12" font-family="ui-monospace,Menlo,Consolas,monospace">PRODUCT UNIVERSE / ACTIVE SYSTEMS</text>
+<text x="46" y="88" fill="#F8FAFC" font-size="30" font-weight="700" font-family="Inter,Arial,sans-serif">Three products. Three different problem spaces.</text>
+<text x="46" y="112" fill="#94A3B8" font-size="13" font-family="ui-monospace,Menlo,Consolas,monospace">Creative experience · desktop platform · multi-tenant SaaS</text>
+
+<!-- transit line -->
+<path d="M126 266 H1074" stroke="#18363d" stroke-width="2" fill="none"/>
+<circle cy="266" r="4" fill="#5EEAD4" filter="url(#g)"><animate attributeName="cx" values="126;1074;126" dur="8s" repeatCount="indefinite"/></circle>
+
+<g font-family="ui-monospace,Menlo,Consolas,monospace">
+  <g transform="translate(60 150)">
+    <rect width="325" height="285" rx="18" fill="#09131a" stroke="#1c3941"/>
+    <text x="22" y="30" fill="#F59E0B" font-size="11">NODE A / IMMERSIVE WEB</text>
+    <text x="22" y="67" fill="#F8FAFC" font-size="24" font-weight="700">CASA SOMBRERO</text>
+    <text x="22" y="94" fill="#A3E635" font-size="11">DEPLOYED / LIVE</text>
+    <circle cx="283" cy="49" r="19" fill="none" stroke="#F59E0B" stroke-dasharray="3 5"><animateTransform attributeName="transform" type="rotate" from="0 283 49" to="360 283 49" dur="6s" repeatCount="indefinite"/></circle>
+    <text x="22" y="132" fill="#94A3B8" font-size="11">Cinematic restaurant experience</text>
+    <text x="22" y="152" fill="#94A3B8" font-size="11">with scene-driven interaction,</text>
+    <text x="22" y="172" fill="#94A3B8" font-size="11">motion and a mobile ordering flow.</text>
+    <line x1="22" y1="194" x2="303" y2="194" stroke="#18363d"/>
+    <text x="22" y="219" fill="#64748B" font-size="10">SYSTEMS</text>
+    <text x="22" y="241" fill="#F8FAFC" font-size="11">Next.js · React · Three.js</text>
+    <text x="22" y="261" fill="#F8FAFC" font-size="11">GSAP · Framer Motion</text>
+  </g>
+
+  <g transform="translate(438 150)">
+    <rect width="325" height="285" rx="18" fill="#09131a" stroke="#1c3941"/>
+    <text x="22" y="30" fill="#5EEAD4" font-size="11">NODE B / DESKTOP PLATFORM</text>
+    <text x="22" y="67" fill="#F8FAFC" font-size="24" font-weight="700">ORBITAIL</text>
+    <text x="22" y="94" fill="#5EEAD4" font-size="11">ACTIVE DEVELOPMENT</text>
+    <g transform="translate(275 48)"><circle r="18" fill="none" stroke="#5EEAD4"/><circle cy="-18" r="4" fill="#5EEAD4"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5s" repeatCount="indefinite"/></circle></g>
+    <text x="22" y="132" fill="#94A3B8" font-size="11">A product spanning web, macOS</text>
+    <text x="22" y="152" fill="#94A3B8" font-size="11">and Windows experiences with</text>
+    <text x="22" y="172" fill="#94A3B8" font-size="11">native-focused product engineering.</text>
+    <line x1="22" y1="194" x2="303" y2="194" stroke="#18363d"/>
+    <text x="22" y="219" fill="#64748B" font-size="10">SURFACES</text>
+    <text x="22" y="241" fill="#F8FAFC" font-size="11">Web · macOS · Windows</text>
+    <text x="22" y="261" fill="#F8FAFC" font-size="11">Desktop product engineering</text>
+  </g>
+
+  <g transform="translate(816 150)">
+    <rect width="325" height="285" rx="18" fill="#09131a" stroke="#1c3941"/>
+    <text x="22" y="30" fill="#A3E635" font-size="11">NODE C / MULTI-TENANT SaaS</text>
+    <text x="22" y="67" fill="#F8FAFC" font-size="24" font-weight="700">SYNAPSEHR</text>
+    <text x="22" y="94" fill="#A3E635" font-size="11">IN DEVELOPMENT</text>
+    <g transform="translate(278 49)"><circle r="5" fill="#A3E635"/><circle r="18" fill="none" stroke="#A3E635" opacity=".35"><animate attributeName="r" values="9;24;9" dur="2.5s" repeatCount="indefinite"/></circle></g>
+    <text x="22" y="132" fill="#94A3B8" font-size="11">HRMS platform for employee</text>
+    <text x="22" y="152" fill="#94A3B8" font-size="11">operations, workflows, payroll</text>
+    <text x="22" y="172" fill="#94A3B8" font-size="11">and role-based multi-tenant access.</text>
+    <line x1="22" y1="194" x2="303" y2="194" stroke="#18363d"/>
+    <text x="22" y="219" fill="#64748B" font-size="10">ARCHITECTURE</text>
+    <text x="22" y="241" fill="#F8FAFC" font-size="11">SaaS · HR Tech · Workflows</text>
+    <text x="22" y="261" fill="#F8FAFC" font-size="11">Role-based systems · Mobile + Web</text>
+  </g>
+</g>
+
+<text x="46" y="482" fill="#64748B" font-size="11" font-family="ui-monospace,Menlo,Consolas,monospace">THIRD NATURE / PRODUCT SIGNALS</text>
+<text x="1154" y="482" text-anchor="end" fill="#5EEAD4" font-size="11" font-family="ui-monospace,Menlo,Consolas,monospace">DESIGN → BUILD → SHIP</text>
+</svg>
