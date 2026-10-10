@@ -1,208 +1,266 @@
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/thirdnaturedev/thirdnaturedev/main/assets/fullstack-workspace.svg" width="100%" alt="Third Nature full-stack developer workspace" />
+
+<br/>
+
 # THIRD NATURE
 
 ### Full-Stack Developer · SaaS Developer · Product Engineer
 
-**I build the whole system — interface, application logic, data, automation, and delivery.**
+I build complete products across **frontend, backend, data, authentication, automation, desktop, and deployment**.
 
-`TypeScript` · `JavaScript` · `Python` · `Swift` · `C#` · `Next.js` · `React` · `Node.js` · `.NET` · `PostgreSQL`
+**For Things That Don’t Exist Yet.**
 
 <br/>
 
-<a href="mailto:wearethirdnature@gmail.com"><img src="https://img.shields.io/badge/EMAIL-wearethirdnature%40gmail.com-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" /></a>
+<a href="mailto:wearethirdnature@gmail.com"><img src="https://img.shields.io/badge/CONTACT-wearethirdnature%40gmail.com-161B22?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email Third Nature" /></a>
 &nbsp;
-<a href="https://github.com/thirdnaturedev?tab=repositories"><img src="https://img.shields.io/badge/CODE-REPOSITORIES-0D1117?style=for-the-badge&logo=github&logoColor=F0F6FC" alt="Repositories" /></a>
-&nbsp;
-<img src="https://komarev.com/ghpvc/?username=thirdnaturedev&label=PROFILE+VIEWS&color=0D1117&style=for-the-badge" alt="Profile views" />
+<a href="https://github.com/thirdnaturedev?tab=repositories"><img src="https://img.shields.io/badge/VIEW-REPOSITORIES-161B22?style=for-the-badge&logo=github&logoColor=F0F6FC" alt="View repositories" /></a>
 
 </div>
 
 ---
 
-## `developer.ts`
+## What I build
 
-```ts
-export const developer = {
-  identity: "Third Nature",
-  role: ["Full-Stack Developer", "SaaS Developer", "Product Engineer"],
-  mode: "building / experimenting / shipping",
-
-  builds: {
-    frontend: ["Next.js", "React", "TypeScript", "Tailwind", "SwiftUI"],
-    backend: ["Node.js", ".NET", "REST APIs", "Python"],
-    data: ["PostgreSQL", "Supabase", "MongoDB"],
-    systems: ["Authentication", "RBAC", "Multi-tenant SaaS", "Workflows"],
-    delivery: ["GitHub Actions", "Vercel", "CI/CD", "Desktop builds"]
-  },
-
-  principle: "For Things That Don’t Exist Yet."
-};
-```
-
-I work across the full product lifecycle: **architecture → implementation → data → deployment → refinement**. The point is not to collect technologies; it is to understand enough of the system to make every layer work together.
-
----
-
-## `system.architecture`
-
-```text
-┌─ CLIENT LAYER
-│  Next.js · React · TypeScript · Tailwind · SwiftUI
-│  Responsive UI · Motion · Three.js · GSAP
-│
-├─ APPLICATION LAYER
-│  Node.js · .NET / C# · Python · REST APIs
-│  Business logic · Validation · Integrations
-│
-├─ ACCESS LAYER
-│  Authentication · Authorization · RBAC
-│  Tenant boundaries · Session flows · Permissions
-│
-├─ DATA LAYER
-│  PostgreSQL · Supabase · MongoDB
-│  Schema design · Persistence · Queries · State
-│
-├─ AUTOMATION LAYER
-│  GitHub Actions · Build pipelines · Scheduled jobs
-│  Repeatable deployment · Profile telemetry
-│
-└─ DELIVERY LAYER
-   Vercel · macOS · Windows · Production deployment
-   Performance · Edge cases · Monitoring · Refinement
-```
-
----
-
-## `live.telemetry`
-
-This profile uses my own **self-hosted `github-readme-stats` instance**, so the cards are generated from GitHub data through infrastructure I control instead of relying on the shared public endpoint.
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats-iota-inky-76.vercel.app/api?username=thirdnaturedev&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&show=reviews,prs_merged,prs_merged_percentage&hide_border=true&bg_color=00000000&title_color=58A6FF&icon_color=3FB950&text_color=8B949E&border_radius=10" alt="Third Nature GitHub stats" />
-<img width="49%" src="https://github-readme-stats-iota-inky-76.vercel.app/api/top-langs/?username=thirdnaturedev&layout=donut&langs_count=8&hide_border=true&bg_color=00000000&title_color=58A6FF&text_color=8B949E&border_radius=10" alt="Third Nature top languages" />
-
-<br/><br/>
-
-<a href="https://github.com/thirdnaturedev/github-readme-stats">
-<img width="68%" src="https://github-readme-stats-iota-inky-76.vercel.app/api/pin/?username=thirdnaturedev&repo=github-readme-stats&hide_border=true&bg_color=00000000&title_color=58A6FF&icon_color=3FB950&text_color=8B949E&border_radius=10" alt="Self-hosted GitHub Readme Stats repository" />
-</a>
-
-</div>
-
-<sub>The telemetry engine is backed by my public `github-readme-stats` fork and Vercel deployment.</sub>
-
----
-
-## `technology.matrix`
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=ts,js,python,swift,cs,nextjs,react,tailwind,nodejs,dotnet,supabase,postgres,mongodb,git,github,githubactions,vercel,figma,vscode,xcode,androidstudio&perline=11" alt="Technology stack" />
-
-</div>
+I work across the full product stack instead of treating frontend, backend, data, and delivery as separate jobs.
 
 <table>
 <tr>
 <td width="25%" valign="top">
 
-### Frontend
+### Product UI
+
 Next.js  
 React  
 TypeScript  
 Tailwind CSS  
 SwiftUI  
-Three.js
+Responsive systems  
+Motion / interaction
 
 </td>
 <td width="25%" valign="top">
 
-### Backend
+### Application
+
 Node.js  
 .NET / C#  
 Python  
 REST APIs  
 Business logic  
-Integrations
+Integrations  
+Validation
 
 </td>
 <td width="25%" valign="top">
 
-### Data / Access
+### Data & Access
+
 PostgreSQL  
 Supabase  
 MongoDB  
 Authentication  
 RBAC  
-Multi-tenancy
+Multi-tenancy  
+State & persistence
 
 </td>
 <td width="25%" valign="top">
 
 ### Delivery
-Git  
+
 GitHub Actions  
 Vercel  
-macOS  
-Windows  
-CI/CD
+CI/CD  
+macOS builds  
+Windows builds  
+Deployment  
+Production refinement
 
 </td>
 </tr>
 </table>
 
+The part I care about most is how these layers **work together**: permissions match the data model, frontend behavior matches backend rules, automation matches the release process, and the product remains consistent across every surface.
+
 ---
 
-## `selected.systems`
+## Selected systems
+
+### Casa Sombrero — immersive restaurant experience
+
+A production web experience built around cinematic scene logic, spatial composition, motion, and a separate touch-first mobile ordering flow.
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-### Casa Sombrero
-**Immersive web product**
+**Frontend**
 
-**Client**  
-Next.js · React · TypeScript · Tailwind
-
-**Experience layer**  
-Three.js · React Three Fiber · GSAP · Framer Motion
-
-**Engineering**  
-Responsive behavior · asset pipeline · interaction state · performance · deployment
-
-[Live](https://casa-sombrero.vercel.app) · [Showcase](https://github.com/thirdnaturedev/casa-sombrero-showcase)
+Next.js  
+React  
+TypeScript  
+Tailwind CSS
 
 </td>
 <td width="33%" valign="top">
 
-### Orbitail
-**Web + desktop product**
+**Experience layer**
 
-**Surfaces**  
-Web · macOS · Windows
-
-**Engineering**  
-Shared product logic · desktop UX · packaging · distribution · cross-platform consistency
-
-**Status**  
-Active development
+Three.js  
+React Three Fiber  
+GSAP  
+Framer Motion
 
 </td>
 <td width="34%" valign="top">
 
-### SynapseHR
-**Multi-tenant HRMS SaaS**
+**Engineering focus**
 
-**Application**  
-Employee operations · workflows · payroll-oriented systems
+Responsive behavior  
+Interaction state  
+Asset handling  
+Performance  
+Deployment
 
-**Architecture**  
-Authentication · RBAC · tenant-aware data · scalable product structure
+</td>
+</tr>
+</table>
 
-**Status**  
-In development
+[Live experience →](https://casa-sombrero.vercel.app) · [Public showcase →](https://github.com/thirdnaturedev/casa-sombrero-showcase)
+
+<br/>
+
+### Orbitail — web + desktop product
+
+A multi-surface product being developed across **web, macOS, and Windows**, with the core implementation kept private while development continues.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Product surfaces**
+
+Web  
+macOS  
+Windows
+
+</td>
+<td width="50%" valign="top">
+
+**Engineering focus**
+
+Desktop UX  
+Cross-platform consistency  
+Shared product behavior  
+Packaging / distribution  
+Product iteration
+
+</td>
+</tr>
+</table>
+
+**Status:** active development
+
+<br/>
+
+### SynapseHR — multi-tenant HRMS SaaS
+
+A full-stack HR product focused on employee operations, structured workflows, role-based access, payroll-oriented systems, and scalable tenant-aware architecture.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Application concerns**
+
+Employee operations  
+Role-based workflows  
+Payroll-oriented systems  
+Desktop-first administration
+
+</td>
+<td width="50%" valign="top">
+
+**Architecture concerns**
+
+Authentication  
+Authorization / RBAC  
+Tenant boundaries  
+Data ownership  
+Scalable product structure
+
+</td>
+</tr>
+</table>
+
+**Status:** in development
+
+---
+
+## How I engineer products
+
+```text
+DISCOVER
+understand the user, the workflow, the constraints, and the system boundary
+
+MODEL
+shape entities, relationships, permissions, tenant rules, and state
+
+BUILD THE SURFACE
+implement interface, responsive behavior, accessibility, motion, and interaction
+
+BUILD THE SYSTEM
+implement APIs, authentication, authorization, business rules, and integrations
+
+CONNECT THE DATA
+create schemas, persistence rules, queries, validation, and ownership boundaries
+
+AUTOMATE
+build repeatable GitHub Actions, deployment flows, and release tasks
+
+SHIP & REFINE
+test real behavior, fix edge cases, improve performance, deploy, and iterate
+```
+
+This is the part of full-stack work I enjoy most: turning a product idea into a system that is understandable from the interface all the way down to the data and deployment model.
+
+---
+
+## Technology I use in real builds
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Core languages
+
+`TypeScript` · `JavaScript` · `Python` · `Swift` · `C#`
+
+### Frontend / native
+
+`Next.js` · `React` · `Tailwind CSS` · `SwiftUI`
+
+### Motion / immersive UI
+
+`Framer Motion` · `GSAP` · `Three.js` · `React Three Fiber`
+
+</td>
+<td width="50%" valign="top">
+
+### Backend / platform
+
+`Node.js` · `.NET` · `REST APIs`
+
+### Data
+
+`PostgreSQL` · `Supabase` · `MongoDB`
+
+### Engineering tools
+
+`Git` · `GitHub` · `GitHub Actions` · `VS Code` · `Xcode` · `Android Studio` · `Figma`
 
 </td>
 </tr>
@@ -210,44 +268,41 @@ In development
 
 ---
 
-## `engineering.workflow`
+## Live GitHub data
 
-```yaml
-product:
-  define:     users, roles, constraints, system boundaries
-  model:      entities, relationships, permissions, tenant rules
+The cards below run through my own self-hosted `github-readme-stats` deployment, so this section is generated from live GitHub data rather than hard-coded profile numbers.
 
-engineering:
-  frontend:   UI, state, responsiveness, interaction, accessibility
-  backend:    APIs, auth, business rules, validation, integrations
-  data:       schema, persistence, queries, ownership, isolation
+<div align="center">
 
-operations:
-  automate:   GitHub Actions, builds, scheduled tasks, deployments
-  verify:     performance, edge cases, production behavior
-  ship:       deployment, release, iteration, refinement
-```
+<img width="49%" src="https://github-readme-stats-iota-inky-76.vercel.app/api?username=thirdnaturedev&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&show=reviews,prs_merged&hide_border=true&bg_color=00000000&title_color=58A6FF&icon_color=3FB950&text_color=8B949E" alt="Third Nature GitHub statistics" />
+<img width="49%" src="https://github-readme-stats-iota-inky-76.vercel.app/api/top-langs/?username=thirdnaturedev&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=58A6FF&text_color=8B949E" alt="Third Nature language statistics" />
+
+</div>
+
+<sub>Self-hosted stats source: `thirdnaturedev/github-readme-stats`.</sub>
 
 ---
 
-## `currently.building`
+## Current build mode
 
 ```text
-Casa Sombrero   → immersive product experience
-Orbitail        → web + desktop product engineering
-SynapseHR       → multi-tenant SaaS architecture
-Profile Infra   → self-hosted GitHub telemetry
+Casa Sombrero   production experience / refinement
+Orbitail        web + desktop product development
+SynapseHR       multi-tenant SaaS architecture
+Third Nature    product systems / experiments / future releases
 ```
 
 <div align="center">
 
 <br/>
+
+### Build the interface. Build the system. Ship the product.
 
 **THIRD NATURE**  
 *For Things That Don’t Exist Yet.*
 
 <br/>
 
-<a href="mailto:wearethirdnature@gmail.com"><img src="https://img.shields.io/badge/OPEN_TO_BUILDING-NEW_SYSTEMS-0D1117?style=for-the-badge&logo=github&logoColor=58A6FF" alt="Open to building new systems" /></a>
+<a href="mailto:wearethirdnature@gmail.com"><img src="https://img.shields.io/badge/START_A_CONVERSATION-161B22?style=for-the-badge&logo=gmail&logoColor=58A6FF" alt="Start a conversation" /></a>
 
 </div>
