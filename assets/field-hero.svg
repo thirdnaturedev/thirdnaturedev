@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050706"/><stop offset=".5" stop-color="#0a0f0c"/><stop offset="1" stop-color="#101109"/></linearGradient>
+  <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#5EEAD4"/><stop offset=".5" stop-color="#A3E635"/><stop offset="1" stop-color="#F59E0B"/></linearGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="1200" height="560" rx="30" fill="url(#bg)"/>
+<rect x="18" y="18" width="1164" height="524" rx="24" fill="none" stroke="#1d2722"/>
+<g opacity=".4" stroke="#1b2a25" fill="none">
+  <path d="M0 118 C210 40 290 220 500 142 S840 40 1200 138"><animate attributeName="d" dur="9s" repeatCount="indefinite" values="M0 118 C210 40 290 220 500 142 S840 40 1200 138;M0 160 C190 255 360 40 560 152 S910 260 1200 115;M0 118 C210 40 290 220 500 142 S840 40 1200 138"/></path>
+  <path d="M0 180 C220 260 330 92 560 205 S900 290 1200 170"><animate attributeName="d" dur="11s" repeatCount="indefinite" values="M0 180 C220 260 330 92 560 205 S900 290 1200 170;M0 220 C260 110 410 290 640 165 S960 90 1200 230;M0 180 C220 260 330 92 560 205 S900 290 1200 170"/></path>
+  <path d="M0 432 C200 320 360 505 600 390 S940 332 1200 430"><animate attributeName="d" dur="13s" repeatCount="indefinite" values="M0 432 C200 320 360 505 600 390 S940 332 1200 430;M0 392 C180 520 410 340 630 460 S1000 510 1200 375;M0 432 C200 320 360 505 600 390 S940 332 1200 430"/></path>
+</g>
+<circle cx="1010" cy="120" r="118" fill="#5EEAD4" opacity=".08" filter="url(#blur)"><animate attributeName="r" values="85;145;85" dur="7s" repeatCount="indefinite"/></circle>
+<circle cx="920" cy="445" r="90" fill="#F59E0B" opacity=".06" filter="url(#blur)"><animate attributeName="cx" values="900;980;900" dur="10s" repeatCount="indefinite"/></circle>
+<text x="60" y="70" fill="#6f8179" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="13">THIRD NATURE — FIELD NOTE 001</text>
+<text x="60" y="160" fill="#F7F8F5" font-family="Arial,Helvetica,sans-serif" font-weight="800" font-size="76">MAKE THE</text>
+<text x="60" y="236" fill="#F7F8F5" font-family="Arial,Helvetica,sans-serif" font-weight="800" font-size="76">UNFAMILIAR</text>
+<text x="60" y="312" fill="url(#accent)" font-family="Arial,Helvetica,sans-serif" font-weight="800" font-size="76">FEEL INEVITABLE.</text>
+<text x="63" y="360" fill="#9aa9a2" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="16">creative development / full-stack systems / SaaS / desktop / motion</text>
+<g transform="translate(60 408)" font-family="ui-monospace,Menlo,Consolas,monospace">
+  <rect width="500" height="94" rx="18" fill="#0c1210" stroke="#26382f"/>
+  <text x="22" y="28" fill="#64756d" font-size="11">CURRENT SIGNAL</text>
+  <text x="22" y="57" fill="#F7F8F5" font-size="16">building → experimenting → shipping</text>
+  <circle cx="454" cy="47" r="7" fill="#A3E635"><animate attributeName="opacity" values="1;.18;1" dur="1.4s" repeatCount="indefinite"/></circle>
+  <text x="470" y="52" fill="#A3E635" font-size="11">LIVE</text>
+</g>
+<g transform="translate(928 330)">
+  <circle r="74" fill="none" stroke="#2c3a33" stroke-width="1.2"/>
+  <circle r="48" fill="none" stroke="#2c3a33" stroke-dasharray="2 7"/>
+  <g><circle cx="0" cy="-74" r="7" fill="#5EEAD4"/><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/></g>
+  <g><circle cx="48" cy="0" r="5" fill="#F59E0B"/><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="5s" repeatCount="indefinite"/></g>
+  <text x="0" y="5" text-anchor="middle" fill="#F7F8F5" font-family="Arial" font-size="28" font-weight="800">TN</text>
+</g>
+<text x="1128" y="510" transform="rotate(-90 1128 510)" fill="#42534b" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11">FOR THINGS THAT DON’T EXIST YET.</text>
+</svg>
