@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="520" viewBox="0 0 1180 520">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#030303"/><stop offset=".55" stop-color="#080808"/><stop offset="1" stop-color="#0e0c09"/></linearGradient>
+  <linearGradient id="metal" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#6f6252"/><stop offset=".28" stop-color="#f2e5cf"/><stop offset=".5" stop-color="#9c805e"/><stop offset=".7" stop-color="#f4eee4"/><stop offset="1" stop-color="#6b5843"/></linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#3f3529" stop-opacity="0"/><stop offset=".5" stop-color="#d9bd91"/><stop offset="1" stop-color="#3f3529" stop-opacity="0"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#d5b582" stop-opacity=".22"/><stop offset=".5" stop-color="#9b7447" stop-opacity=".08"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+  <filter id="blur24"><feGaussianBlur stdDeviation="24"/></filter>
+  <filter id="glow"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1180" height="520" rx="26" fill="url(#bg)"/>
+<rect x="1" y="1" width="1178" height="518" rx="25" fill="none" stroke="#241f19"/>
+<ellipse cx="860" cy="260" rx="300" ry="240" fill="url(#halo)" filter="url(#blur24)"><animate attributeName="opacity" values=".55;.9;.55" dur="9s" repeatCount="indefinite"/></ellipse>
+<g opacity=".72">
+  <path d="M760 74 C935 108 1010 197 980 290 C950 382 831 429 702 398" fill="none" stroke="#b89a70" stroke-width="1.2" stroke-linecap="round">
+    <animate attributeName="d" dur="12s" repeatCount="indefinite" values="M760 74 C935 108 1010 197 980 290 C950 382 831 429 702 398;M739 88 C912 88 1035 177 998 287 C957 408 824 425 689 384;M760 74 C935 108 1010 197 980 290 C950 382 831 429 702 398"/>
+  </path>
+  <path d="M804 95 C930 134 983 207 958 283 C932 363 838 398 739 378" fill="none" stroke="#66553f" stroke-width="18" stroke-linecap="round" opacity=".18">
+    <animateTransform attributeName="transform" type="rotate" from="0 860 255" to="360 860 255" dur="34s" repeatCount="indefinite"/>
+  </path>
+  <path d="M815 103 C917 141 957 211 934 275 C910 343 839 371 760 355" fill="none" stroke="#cbb089" stroke-width="3" stroke-linecap="round" opacity=".6" filter="url(#glow)">
+    <animateTransform attributeName="transform" type="rotate" from="0 860 255" to="-360 860 255" dur="28s" repeatCount="indefinite"/>
+  </path>
+</g>
+<circle cx="860" cy="255" r="112" fill="#070706" stroke="#3a3024"/>
+<circle cx="860" cy="255" r="86" fill="#0b0a08" stroke="#645039"/>
+<g transform="translate(860 255)" fill="none" stroke="url(#metal)" stroke-width="11" stroke-linecap="round">
+  <path d="M-26 -52 C-44 -16 -44 20 -26 54"/>
+  <path d="M0 -60 C-20 -18 -20 20 0 62"/>
+  <path d="M27 -52 C9 -16 9 20 27 54"/>
+  <animateTransform attributeName="transform" type="scale" values="1;1.035;1" dur="5.5s" repeatCount="indefinite"/>
+</g>
+<g font-family="Inter,Arial,sans-serif">
+  <text x="74" y="98" fill="#8d7b65" font-size="13" letter-spacing="5">THIRD NATURE / CREATIVE SYSTEMS</text>
+  <text x="72" y="200" fill="#f5f1ea" font-size="72" font-weight="300" letter-spacing="9">THIRD</text>
+  <text x="72" y="278" fill="url(#metal)" font-size="72" font-weight="600" letter-spacing="9">NATURE</text>
+  <rect x="74" y="313" width="430" height="1" fill="url(#line)"/>
+  <text x="74" y="352" fill="#c8bca9" font-size="18" letter-spacing="2.5">FOR THINGS THAT DON’T EXIST YET.</text>
+  <text x="74" y="398" fill="#756c61" font-size="13" letter-spacing="2">PRODUCT · INTERFACE · SYSTEM · MOTION</text>
+</g>
+<circle cx="1090" cy="58" r="3.2" fill="#d8bd93"><animate attributeName="opacity" values="1;.2;1" dur="2.3s" repeatCount="indefinite"/></circle>
+<text x="1076" y="91" fill="#62594f" font-size="10" text-anchor="end" font-family="ui-monospace,Menlo,monospace" letter-spacing="1.5">EST. THIRD NATURE</text>
+</svg>
