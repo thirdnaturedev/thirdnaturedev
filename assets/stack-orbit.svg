@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#05080d"/><stop offset="1" stop-color="#081218"/></linearGradient>
+  <linearGradient id="edge" x1="0" x2="1"><stop stop-color="#5EEAD4"/><stop offset=".55" stop-color="#A3E635"/><stop offset="1" stop-color="#F59E0B"/></linearGradient>
+  <radialGradient id="core"><stop stop-color="#5EEAD4" stop-opacity=".28"/><stop offset="1" stop-color="#5EEAD4" stop-opacity="0"/></radialGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="330" rx="24" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="328" rx="23" fill="none" stroke="#1c3941"/>
+<text x="44" y="42" fill="#5EEAD4" font-size="11" letter-spacing="2" font-family="ui-monospace,Menlo,Consolas,monospace">STACK / ORBITAL MAP</text>
+<text x="1155" y="42" text-anchor="end" fill="#64748B" font-size="10" font-family="ui-monospace,Menlo,Consolas,monospace">ACTIVE TOOLCHAIN</text>
+
+<!-- connection web -->
+<g stroke="#24444c" stroke-width="1.2" opacity=".7">
+  <path d="M600 165L245 95M600 165L245 238M600 165L955 95M600 165L955 238"/>
+  <path d="M245 95L245 238M955 95L955 238M245 95L955 95M245 238L955 238" opacity=".35"/>
+</g>
+
+<!-- core -->
+<circle cx="600" cy="165" r="105" fill="url(#core)"><animate attributeName="r" values="88;112;88" dur="6s" repeatCount="indefinite"/></circle>
+<circle cx="600" cy="165" r="63" fill="#09151a" stroke="#2a4a52"/>
+<circle cx="600" cy="165" r="42" fill="none" stroke="#5EEAD4" stroke-opacity=".5" stroke-dasharray="5 8"><animateTransform attributeName="transform" type="rotate" from="0 600 165" to="360 600 165" dur="9s" repeatCount="indefinite"/></circle>
+<circle cx="600" cy="165" r="7" fill="#A3E635" filter="url(#glow)"><animate attributeName="r" values="6;10;6" dur="2.2s" repeatCount="indefinite"/></circle>
+<text x="600" y="151" text-anchor="middle" fill="#F8FAFC" font-size="20" font-family="Inter,Arial,sans-serif" font-weight="700">CORE</text>
+<text x="600" y="181" text-anchor="middle" fill="#94A3B8" font-size="10" font-family="ui-monospace,Menlo,Consolas,monospace">PRODUCT STACK</text>
+
+<!-- satellites -->
+<g font-family="ui-monospace,Menlo,Consolas,monospace">
+  <g>
+    <rect x="105" y="62" width="280" height="72" rx="16" fill="#0a1419" stroke="#23434b"/>
+    <text x="128" y="88" fill="#5EEAD4" font-size="10">LANGUAGES</text>
+    <text x="128" y="112" fill="#E2E8F0" font-size="12.5">TypeScript · JavaScript · Python · Swift · C#</text>
+    <circle cx="352" cy="83" r="4" fill="#5EEAD4"><animate attributeName="opacity" values="1;.15;1" dur="1.4s" repeatCount="indefinite"/></circle>
+  </g>
+  <g>
+    <rect x="105" y="202" width="280" height="72" rx="16" fill="#0a1419" stroke="#23434b"/>
+    <text x="128" y="228" fill="#A3E635" font-size="10">FRONTEND</text>
+    <text x="128" y="252" fill="#E2E8F0" font-size="12.5">Next.js · React · Tailwind · SwiftUI</text>
+    <circle cx="352" cy="223" r="4" fill="#A3E635"><animate attributeName="opacity" values=".2;1;.2" dur="1.8s" repeatCount="indefinite"/></circle>
+  </g>
+  <g>
+    <rect x="815" y="62" width="280" height="72" rx="16" fill="#0a1419" stroke="#23434b"/>
+    <text x="838" y="88" fill="#F59E0B" font-size="10">BACKEND / DATA</text>
+    <text x="838" y="112" fill="#E2E8F0" font-size="12.5">Node.js · .NET · Supabase · PostgreSQL</text>
+    <circle cx="1062" cy="83" r="4" fill="#F59E0B"><animate attributeName="opacity" values="1;.2;1" dur="1.6s" repeatCount="indefinite"/></circle>
+  </g>
+  <g>
+    <rect x="815" y="202" width="280" height="72" rx="16" fill="#0a1419" stroke="#23434b"/>
+    <text x="838" y="228" fill="#5EEAD4" font-size="10">TOOLS / PLATFORM</text>
+    <text x="838" y="252" fill="#E2E8F0" font-size="12.5">GitHub · Actions · Figma · Xcode · VS Code</text>
+    <circle cx="1062" cy="223" r="4" fill="#5EEAD4"><animate attributeName="opacity" values=".2;1;.2" dur="2s" repeatCount="indefinite"/></circle>
+  </g>
+</g>
+
+<!-- traveling particles -->
+<circle r="4" fill="#5EEAD4" filter="url(#glow)"><animateMotion dur="3.6s" repeatCount="indefinite" path="M600 165 L245 95"/></circle>
+<circle r="4" fill="#A3E635"><animateMotion dur="4.2s" repeatCount="indefinite" path="M245 238 L600 165"/></circle>
+<circle r="4" fill="#F59E0B"><animateMotion dur="3.9s" repeatCount="indefinite" path="M600 165 L955 95"/></circle>
+<circle r="4" fill="#5EEAD4"><animateMotion dur="4.6s" repeatCount="indefinite" path="M955 238 L600 165"/></circle>
+</svg>
