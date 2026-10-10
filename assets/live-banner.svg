@@ -43,6 +43,6 @@
 
 <!-- live pulse + ticker -->
 <circle cx="435" cy="385" r="5" fill="#A3E635"><animate attributeName="opacity" values="1;.2;1" dur="1.2s" repeatCount="indefinite"/></circle>
-<text x="450" y="390" fill="#CBD5E1" font-size="12" font-family="ui-monospace,Menlo,Consolas,monospace">LIVE · synced from GitHub · 10 Oct 2026 · 12:00 UTC</text>
+<text x="450" y="390" fill="#CBD5E1" font-size="12" font-family="ui-monospace,Menlo,Consolas,monospace">LIVE · synced from GitHub · 10 Oct 2026 · 12:35 UTC</text>
 <g opacity=".9"><path d="M105 383 C150 350 195 415 240 382 S330 352 375 383" fill="none" stroke="#5EEAD4" stroke-width="2"><animate attributeName="d" dur="3.2s" repeatCount="indefinite" values="M105 383 C150 350 195 415 240 382 S330 352 375 383;M105 383 C150 410 195 350 240 384 S330 413 375 383;M105 383 C150 350 195 415 240 382 S330 352 375 383"/></path></g>
 </svg>
