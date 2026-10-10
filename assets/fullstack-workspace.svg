@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="620" viewBox="0 0 1180 620">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0d1117"/>
+    <stop offset="1" stop-color="#111827"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#58a6ff"/>
+    <stop offset="1" stop-color="#3fb950"/>
+  </linearGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="22"/></filter>
+</defs>
+<rect width="1180" height="620" rx="24" fill="url(#bg)"/>
+<rect x="18" y="18" width="1144" height="584" rx="18" fill="#0b0f14" stroke="#273244"/>
+
+<text x="54" y="55" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">thirdnaturedev / workspace</text>
+<text x="1126" y="55" text-anchor="end" fill="#3fb950" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">BUILDING · SHIPPING</text>
+
+<rect x="42" y="82" width="228" height="478" rx="12" fill="#0f141b" stroke="#202938"/>
+<text x="62" y="112" fill="#f0f6fc" font-family="ui-sans-serif, system-ui" font-weight="700" font-size="14">EXPLORER</text>
+<text x="62" y="145" fill="#58a6ff" font-family="ui-monospace, monospace" font-size="13">▾ third-nature</text>
+<text x="78" y="174" fill="#c9d1d9" font-family="ui-monospace, monospace" font-size="12">▾ apps</text>
+<text x="96" y="200" fill="#8b949e" font-family="ui-monospace, monospace" font-size="12">web/</text>
+<text x="96" y="225" fill="#8b949e" font-family="ui-monospace, monospace" font-size="12">desktop/</text>
+<text x="96" y="250" fill="#8b949e" font-family="ui-monospace, monospace" font-size="12">saas/</text>
+<text x="78" y="286" fill="#c9d1d9" font-family="ui-monospace, monospace" font-size="12">▾ packages</text>
+<text x="96" y="312" fill="#8b949e" font-family="ui-monospace, monospace" font-size="12">ui/</text>
+<text x="96" y="337" fill="#8b949e" font-family="ui-monospace, monospace" font-size="12">auth/</text>
+<text x="96" y="362" fill="#8b949e" font-family="ui-monospace, monospace" font-size="12">data/</text>
+<text x="96" y="387" fill="#8b949e" font-family="ui-monospace, monospace" font-size="12">workflows/</text>
+<text x="78" y="424" fill="#c9d1d9" font-family="ui-monospace, monospace" font-size="12">▾ infra</text>
+<text x="96" y="450" fill="#8b949e" font-family="ui-monospace, monospace" font-size="12">github-actions/</text>
+<text x="96" y="475" fill="#8b949e" font-family="ui-monospace, monospace" font-size="12">deploy/</text>
+<text x="62" y="523" fill="#6e7681" font-family="ui-monospace, monospace" font-size="11">main · clean</text>
+
+<rect x="286" y="82" width="852" height="334" rx="12" fill="#0d1117" stroke="#202938"/>
+<rect x="286" y="82" width="852" height="42" rx="12" fill="#11161d"/>
+<text x="310" y="108" fill="#f0f6fc" font-family="ui-monospace, monospace" font-size="12">architecture.ts</text>
+<text x="420" y="108" fill="#6e7681" font-family="ui-monospace, monospace" font-size="12">product.ts</text>
+<text x="500" y="108" fill="#6e7681" font-family="ui-monospace, monospace" font-size="12">deploy.yml</text>
+
+<text x="310" y="152" fill="#8b949e" font-family="ui-monospace, monospace" font-size="13">01</text>
+<text x="350" y="152" fill="#ff7b72" font-family="ui-monospace, monospace" font-size="13">export const</text>
+<text x="450" y="152" fill="#d2a8ff" font-family="ui-monospace, monospace" font-size="13">system</text>
+<text x="505" y="152" fill="#c9d1d9" font-family="ui-monospace, monospace" font-size="13"> = {</text>
+
+<text x="310" y="184" fill="#8b949e" font-family="ui-monospace, monospace" font-size="13">02</text>
+<text x="370" y="184" fill="#79c0ff" font-family="ui-monospace, monospace" font-size="13">frontend:</text>
+<text x="470" y="184" fill="#a5d6ff" font-family="ui-monospace, monospace" font-size="13">["Next.js", "React", "TypeScript", "SwiftUI"],</text>
+
+<text x="310" y="216" fill="#8b949e" font-family="ui-monospace, monospace" font-size="13">03</text>
+<text x="370" y="216" fill="#79c0ff" font-family="ui-monospace, monospace" font-size="13">backend:</text>
+<text x="460" y="216" fill="#a5d6ff" font-family="ui-monospace, monospace" font-size="13">["Node.js", ".NET", "Python", "REST APIs"],</text>
+
+<text x="310" y="248" fill="#8b949e" font-family="ui-monospace, monospace" font-size="13">04</text>
+<text x="370" y="248" fill="#79c0ff" font-family="ui-monospace, monospace" font-size="13">data:</text>
+<text x="430" y="248" fill="#a5d6ff" font-family="ui-monospace, monospace" font-size="13">["PostgreSQL", "Supabase", "MongoDB"],</text>
+
+<text x="310" y="280" fill="#8b949e" font-family="ui-monospace, monospace" font-size="13">05</text>
+<text x="370" y="280" fill="#79c0ff" font-family="ui-monospace, monospace" font-size="13">access:</text>
+<text x="450" y="280" fill="#a5d6ff" font-family="ui-monospace, monospace" font-size="13">["Authentication", "RBAC", "Multi-tenant"],</text>
+
+<text x="310" y="312" fill="#8b949e" font-family="ui-monospace, monospace" font-size="13">06</text>
+<text x="370" y="312" fill="#79c0ff" font-family="ui-monospace, monospace" font-size="13">delivery:</text>
+<text x="465" y="312" fill="#a5d6ff" font-family="ui-monospace, monospace" font-size="13">["GitHub Actions", "Vercel", "macOS", "Windows"]</text>
+
+<text x="310" y="344" fill="#8b949e" font-family="ui-monospace, monospace" font-size="13">07</text>
+<text x="350" y="344" fill="#c9d1d9" font-family="ui-monospace, monospace" font-size="13">};</text>
+
+<text x="310" y="382" fill="#6e7681" font-family="ui-monospace, monospace" font-size="12">// build the whole system, not just the visible layer</text>
+<rect x="310" y="392" width="232" height="2" rx="1" fill="url(#accent)">
+  <animate attributeName="width" values="90;232;150;232" dur="6s" repeatCount="indefinite"/>
+</rect>
+
+<rect x="286" y="432" width="852" height="128" rx="12" fill="#0f141b" stroke="#202938"/>
+<text x="310" y="462" fill="#8b949e" font-family="ui-monospace, monospace" font-size="12">TERMINAL</text>
+<text x="310" y="493" fill="#3fb950" font-family="ui-monospace, monospace" font-size="13">$ npm run build</text>
+<text x="310" y="521" fill="#c9d1d9" font-family="ui-monospace, monospace" font-size="12">✓ client compiled   ✓ api validated   ✓ schema ready   ✓ deployment healthy</text>
+<text x="310" y="546" fill="#58a6ff" font-family="ui-monospace, monospace" font-size="12">thirdnaturedev@main</text>
+<rect x="470" y="536" width="8" height="14" fill="#f0f6fc"><animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/></rect>
+
+<text x="1098" y="590" text-anchor="end" fill="#6e7681" font-family="ui-monospace, monospace" font-size="11">THIRD NATURE · FOR THINGS THAT DON’T EXIST YET.</text>
+</svg>
