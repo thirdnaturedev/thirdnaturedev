@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 560" width="1180" height="560">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#040404"/><stop offset=".48" stop-color="#0A0908"/><stop offset="1" stop-color="#020202"/></linearGradient>
+  <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4B3C2E"/><stop offset=".2" stop-color="#E8D6B6"/><stop offset=".42" stop-color="#7A634B"/><stop offset=".68" stop-color="#F5E8CF"/><stop offset="1" stop-color="#6C553E"/></linearGradient>
+  <linearGradient id="pearl" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#7F8D91"/><stop offset=".33" stop-color="#F4EFE7"/><stop offset=".66" stop-color="#B6A786"/><stop offset="1" stop-color="#4E5C61"/></linearGradient>
+  <radialGradient id="haze"><stop stop-color="#DCC7A2" stop-opacity=".20"/><stop offset="1" stop-color="#DCC7A2" stop-opacity="0"/></radialGradient>
+  <filter id="blur40"><feGaussianBlur stdDeviation="40"/></filter>
+  <filter id="blur12"><feGaussianBlur stdDeviation="12"/></filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="1.2"/></filter>
+  <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1180" height="560" fill="url(#bg)"/>
+<path d="M-80 460 C170 220 270 520 505 258 C690 52 855 110 1260 -40" fill="none" stroke="#EBDDC5" stroke-opacity=".08" stroke-width="120" filter="url(#blur40)">
+  <animate attributeName="d" dur="18s" repeatCount="indefinite" values="M-80 460 C170 220 270 520 505 258 C690 52 855 110 1260 -40;M-60 430 C200 170 300 540 525 245 C720 25 900 145 1240 -20;M-80 460 C170 220 270 520 505 258 C690 52 855 110 1260 -40"/>
+</path>
+<g opacity=".98">
+  <path d="M-35 405 C120 306 214 192 330 250 C450 310 418 446 566 429 C698 414 716 243 842 191 C978 134 1100 208 1225 150" fill="none" stroke="url(#metal)" stroke-width="44" stroke-linecap="round" filter="url(#soft)">
+    <animate attributeName="d" dur="16s" repeatCount="indefinite" values="M-35 405 C120 306 214 192 330 250 C450 310 418 446 566 429 C698 414 716 243 842 191 C978 134 1100 208 1225 150;M-35 388 C138 288 226 213 344 257 C474 306 441 433 582 414 C708 397 744 219 862 181 C1004 136 1110 224 1225 165;M-35 405 C120 306 214 192 330 250 C450 310 418 446 566 429 C698 414 716 243 842 191 C978 134 1100 208 1225 150"/>
+  </path>
+  <path d="M-22 432 C136 338 234 226 348 281 C454 332 449 454 579 438 C721 421 738 267 855 218 C981 165 1096 231 1207 184" fill="none" stroke="#0B0A09" stroke-opacity=".84" stroke-width="28" stroke-linecap="round"/>
+  <path d="M-26 397 C118 306 214 205 332 258 C448 310 422 432 567 418 C691 406 721 246 846 201 C979 153 1090 216 1218 158" fill="none" stroke="url(#pearl)" stroke-opacity=".55" stroke-width="7" stroke-linecap="round" filter="url(#glow)">
+    <animate attributeName="stroke-opacity" values=".3;.78;.3" dur="5.8s" repeatCount="indefinite"/>
+  </path>
+</g>
+<path d="M813 50 C952 86 1058 132 1128 229 C1038 197 936 207 872 273 C814 330 788 420 742 514 C735 392 754 302 803 238 C855 170 920 128 813 50Z" fill="url(#haze)" filter="url(#blur12)" opacity=".75"/>
+<g font-family="Arial,Helvetica,sans-serif" fill="#F5F1EA">
+  <text x="78" y="105" font-size="13" letter-spacing="5" fill="#B8A88C">THIRD NATURE</text>
+  <text x="74" y="212" font-size="82" font-weight="300" letter-spacing="8">THIRD</text>
+  <text x="74" y="300" font-size="82" font-weight="300" letter-spacing="8">NATURE</text>
+  <text x="78" y="350" font-size="18" letter-spacing="3" fill="#D0C5B4">FOR THINGS THAT DON’T EXIST YET.</text>
+  <text x="78" y="474" font-size="12" letter-spacing="2.5" fill="#756C61">CREATIVE DEVELOPMENT / PRODUCT SYSTEMS / MOTION / ENGINEERING</text>
+</g>
+<path d="M78 387 C206 363 316 375 441 400" fill="none" stroke="#CBB690" stroke-width="1.5" stroke-opacity=".6" stroke-linecap="round">
+  <animate attributeName="stroke-dasharray" values="0 360;220 140;0 360" dur="8s" repeatCount="indefinite"/>
+</path>
+</svg>
