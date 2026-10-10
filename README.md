@@ -1,98 +1,161 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0B1220,50:0F766E,100:F59E0B&text=THIRD%20NATURE&fontColor=F8FAFC&fontSize=52&fontAlignY=38&desc=For%20Things%20That%20Don%E2%80%99t%20Exist%20Yet.&descAlignY=58&animation=fadeIn" width="100%" alt="Third Nature" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:06141B,35:0F766E,70:14B8A6,100:F59E0B&text=THIRD%20NATURE&fontColor=F8FAFC&fontSize=54&fontAlignY=38&desc=For%20Things%20That%20Don%E2%80%99t%20Exist%20Yet.&descAlignY=59&animation=fadeIn" width="100%" alt="Third Nature" />
 
-<a href="https://github.com/thirdnaturedev">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=5EEAD4&center=true&vCenter=true&width=900&lines=Creative+Developer+%C2%B7+Full-Stack+Developer+%C2%B7+SaaS+Developer;Building+immersive+web+experiences;Designing+products+that+feel+intentional%2C+polished%2C+and+alive;Building+%C2%B7+Experimenting+%C2%B7+Shipping" alt="Typing intro" />
-</a>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=850&color=5EEAD4&center=true&vCenter=true&width=950&lines=Creative+Developer+%C2%B7+Full-Stack+Developer+%C2%B7+SaaS+Developer;Immersive+web+%C2%B7+SaaS+systems+%C2%B7+desktop+products;Building+interfaces+that+feel+alive;Building+%C2%B7+Experimenting+%C2%B7+Shipping" alt="Animated intro" />
 
 <p>
   <img src="https://komarev.com/ghpvc/?username=thirdnaturedev&label=PROFILE+VIEWS&color=0f766e&style=for-the-badge" alt="Profile views" />
-  <a href="mailto:wearethirdnature@gmail.com"><img src="https://img.shields.io/badge/Email-wearethirdnature%40gmail.com-111827?style=for-the-badge&logo=gmail&logoColor=F59E0B" alt="Email" /></a>
-  <img src="https://img.shields.io/badge/Portfolio-Coming%20Soon-111827?style=for-the-badge&logo=vercel&logoColor=5EEAD4" alt="Portfolio coming soon" />
+  <a href="mailto:wearethirdnature@gmail.com"><img src="https://img.shields.io/badge/EMAIL-WEARETHIRDNATURE%40GMAIL.COM-111827?style=for-the-badge&logo=gmail&logoColor=F59E0B" alt="Email" /></a>
+  <img src="https://img.shields.io/badge/STATUS-BUILDING-111827?style=for-the-badge&logo=github&logoColor=A3E635" alt="Building" />
 </p>
 
 </div>
 
-## About
+## ⚡ Mission Control
 
-I build digital products where **software, design, motion, and experimentation** meet.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-Third Nature is my space for immersive websites, SaaS products, desktop experiences, and unconventional interfaces — with an emphasis on strong visual identity, thoughtful interaction, and production-ready engineering.
+### `NOW.RUNNING`
 
-- 🔭 Building creative products and platform experiments
-- 🧠 Exploring immersive UI, motion systems, SaaS architecture, and desktop apps
-- ⚡ Current mode: **Building · Experimenting · Shipping**
-- ✉️ Reach me at **wearethirdnature@gmail.com**
+- Building immersive web experiences
+- Developing SaaS product systems
+- Exploring desktop products for macOS & Windows
+- Designing motion-first interfaces
+- Shipping experiments under **Third Nature**
 
-## Tech Stack
+### `CURRENT.MODE`
+
+```text
+BUILDING      ██████████  active
+EXPERIMENTING █████████░  active
+SHIPPING      ████████░░  active
+```
+
+</td>
+<td width="50%" valign="top">
+
+### `SYSTEM.IDENTITY`
+
+**Third Nature**  
+Creative Developer · Full-Stack · SaaS
+
+**Focus**  
+Product engineering · Motion · Immersive UI · Systems
+
+**Tagline**  
+*For Things That Don’t Exist Yet.*
+
+### `SIGNAL`
+
+```text
+web        ● online
+saas       ● online
+desktop    ● building
+portfolio  ◌ coming soon
+```
+
+</td>
+</tr>
+</table>
+
+## 🧬 Tech Matrix
 
 <div align="center">
 
-### Languages
-<img src="https://skillicons.dev/icons?i=ts,js,python,swift,cs&theme=dark" alt="Languages" />
-
-### Frontend
-<img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,html,css&theme=dark" alt="Frontend" />
-
-### Backend & Data
-<img src="https://skillicons.dev/icons?i=nodejs,dotnet,supabase,postgres,mongodb&theme=dark" alt="Backend and databases" />
-
-### Tools
-<img src="https://skillicons.dev/icons?i=vscode,git,github,githubactions,figma,androidstudio&theme=dark" alt="Tools" />
+<img src="https://skillicons.dev/icons?i=ts,js,python,swift,cs,nextjs,react,tailwind,nodejs,dotnet,supabase,postgres,mongodb,git,github,githubactions,figma,vscode,androidstudio&perline=10&theme=dark" alt="Technology stack" />
 
 </div>
 
-## Selected Work
+## 🚀 Selected Work
+
+<table>
+<tr>
+<td width="33%" valign="top">
 
 ### 🌮 Casa Sombrero
-**Immersive restaurant experience · Completed & deployed**
+**Immersive restaurant experience**
 
-A cinematic desktop experience paired with a focused mobile ordering flow. It replaces the conventional scrolling restaurant website with scene-driven interaction, motion, depth, and a dedicated touch-first mobile experience.
+Cinematic desktop experience + mobile ordering flow with scene-driven interaction and motion.
 
-`Next.js` · `React` · `TypeScript` · `Tailwind CSS` · `Framer Motion` · `GSAP` · `Three.js`
+`Next.js` `React` `TypeScript` `Three.js`
 
-[View Showcase](https://github.com/thirdnaturedev/casa-sombrero-showcase) · [Live Experience](https://casa-sombrero.vercel.app)
+[Showcase](https://github.com/thirdnaturedev/casa-sombrero-showcase) · [Live](https://casa-sombrero.vercel.app)
+
+</td>
+<td width="33%" valign="top">
 
 ### 🛰️ Orbitail
-**Web + desktop product · Active development**
+**Web + desktop product**
 
-A product spanning web and desktop experiences, including macOS and Windows product work. Core development remains private while the product continues to evolve.
+A product spanning web, macOS and Windows experiences with active product engineering work.
 
-`Desktop` · `macOS` · `Windows` · `Product Engineering`
+`Desktop` `macOS` `Windows`
+
+**Active development**
+
+</td>
+<td width="33%" valign="top">
 
 ### 🧩 SynapseHR
-**Multi-tenant HRMS SaaS · In development**
+**Multi-tenant HRMS SaaS**
 
-A SaaS product centered on employee management, people operations, workflows, payroll-oriented systems, role-based access, and scalable multi-tenant architecture.
+Employee operations, workflows, role-based access, payroll-oriented systems and scalable architecture.
 
-`SaaS` · `Full Stack` · `HR Tech` · `Multi-tenant Architecture`
+`SaaS` `HR Tech` `Full Stack`
 
-## GitHub Trophies
+**In development**
+
+</td>
+</tr>
+</table>
+
+## 🌌 Contribution Universe
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=thirdnaturedev&theme=algolia&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" alt="GitHub trophies" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=thirdnaturedev&bg_color=0B1220&color=5EEAD4&line=F59E0B&point=A3E635&area=true&hide_border=true&custom_title=Third%20Nature%20Contribution%20Signal" width="100%" alt="Contribution activity graph" />
+
+<br/>
+
+<img src="./profile-3d-contrib/profile-season-animate.svg" width="100%" alt="Animated 3D contribution calendar" />
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/thirdnaturedev/thirdnaturedev/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/thirdnaturedev/thirdnaturedev/output/github-snake.svg" />
+  <img src="https://raw.githubusercontent.com/thirdnaturedev/thirdnaturedev/output/github-snake-dark.svg" width="100%" alt="Animated contribution snake" />
+</picture>
+
 </div>
 
-## GitHub Stats
+## 📡 GitHub Telemetry
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats-iota-inky-76.vercel.app/api?username=thirdnaturedev&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=5EEAD4&icon_color=F59E0B&text_color=CBD5E1&bg_color=0B1220" alt="GitHub stats" />
-  <img width="49%" src="https://github-readme-stats-iota-inky-76.vercel.app/api/top-langs/?username=thirdnaturedev&layout=compact&langs_count=8&hide_border=true&title_color=5EEAD4&text_color=CBD5E1&bg_color=0B1220" alt="Top languages" />
+
+<img width="49%" src="https://github-readme-stats-iota-inky-76.vercel.app/api?username=thirdnaturedev&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=5EEAD4&icon_color=F59E0B&text_color=CBD5E1&bg_color=0B1220" alt="GitHub stats" />
+<img width="49%" src="https://github-readme-stats-iota-inky-76.vercel.app/api/top-langs/?username=thirdnaturedev&layout=compact&langs_count=8&hide_border=true&title_color=5EEAD4&text_color=CBD5E1&bg_color=0B1220" alt="Top languages" />
+
+<br/><br/>
+
+<img width="100%" src="https://streak-stats.demolab.com/?user=thirdnaturedev&hide_border=true&background=0B1220&stroke=334155&ring=F59E0B&fire=F59E0B&currStreakLabel=5EEAD4&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B" alt="GitHub streak" />
+
 </div>
 
-## Streak
+## 📬 Connect
 
 <div align="center">
-  <img width="100%" src="https://streak-stats.demolab.com/?user=thirdnaturedev&hide_border=true&background=0B1220&stroke=334155&ring=F59E0B&fire=F59E0B&currStreakLabel=5EEAD4&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B" alt="GitHub streak" />
-</div>
 
-## Developer Quote
+<a href="mailto:wearethirdnature@gmail.com"><img src="https://img.shields.io/badge/Email-080A0C?style=for-the-badge&logo=gmail&logoColor=A3E635" alt="Email Third Nature" /></a>
+<img src="https://img.shields.io/badge/Portfolio-Coming%20Soon-080A0C?style=for-the-badge&logo=vercel&logoColor=5EEAD4" alt="Portfolio Coming Soon" />
 
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Developer quote" />
-</div>
+<br/><br/>
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:0B1220,50:0F766E,100:F59E0B" width="100%" alt="Footer" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1200&color=94A3B8&center=true&vCenter=true&width=800&lines=identity+%2F+systems+%2F+motion+%2F+code;Third+Nature+%C2%B7+For+Things+That+Don%E2%80%99t+Exist+Yet." alt="Footer typing" />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:06141B,50:0F766E,100:F59E0B" width="100%" alt="Footer" />
+
 </div>
