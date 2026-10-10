@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#05080d"/><stop offset="1" stop-color="#071117"/></linearGradient>
+  <linearGradient id="beam" x1="0" x2="1"><stop stop-color="#5EEAD4"/><stop offset=".5" stop-color="#A3E635"/><stop offset="1" stop-color="#F59E0B"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="390" rx="26" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="388" rx="25" fill="none" stroke="#1b3a41"/>
+<text x="46" y="52" fill="#5EEAD4" font-size="12" font-family="ui-monospace,Menlo,Consolas,monospace">BUILD PIPELINE / HOW I WORK</text>
+<text x="46" y="88" fill="#F8FAFC" font-size="30" font-weight="700" font-family="Inter,Arial,sans-serif">From vague idea to shipped system.</text>
+<text x="46" y="112" fill="#94A3B8" font-size="13" font-family="ui-monospace,Menlo,Consolas,monospace">Concept → architecture → interface → implementation → validation → release</text>
+
+<path d="M105 235 H1095" stroke="#17343b" stroke-width="4" stroke-linecap="round"/>
+<path d="M105 235 H1095" stroke="url(#beam)" stroke-width="2" stroke-linecap="round" stroke-dasharray="80 910"><animate attributeName="stroke-dashoffset" from="990" to="-990" dur="5.5s" repeatCount="indefinite"/></path>
+
+<g font-family="ui-monospace,Menlo,Consolas,monospace">
+  <g transform="translate(105 235)"><circle r="15" fill="#0b171c" stroke="#5EEAD4"/><circle r="5" fill="#5EEAD4" filter="url(#glow)"/><text x="0" y="-39" text-anchor="middle" fill="#F8FAFC" font-size="13" font-weight="700">DISCOVER</text><text x="0" y="42" text-anchor="middle" fill="#64748B" font-size="10">problem / intent</text></g>
+  <g transform="translate(303 235)"><circle r="15" fill="#0b171c" stroke="#5EEAD4"/><circle r="5" fill="#5EEAD4"/><text x="0" y="-39" text-anchor="middle" fill="#F8FAFC" font-size="13" font-weight="700">MODEL</text><text x="0" y="42" text-anchor="middle" fill="#64748B" font-size="10">flows / architecture</text></g>
+  <g transform="translate(501 235)"><circle r="15" fill="#0b171c" stroke="#A3E635"/><circle r="5" fill="#A3E635"/><text x="0" y="-39" text-anchor="middle" fill="#F8FAFC" font-size="13" font-weight="700">DESIGN</text><text x="0" y="42" text-anchor="middle" fill="#64748B" font-size="10">interface / motion</text></g>
+  <g transform="translate(699 235)"><circle r="15" fill="#0b171c" stroke="#A3E635"/><circle r="5" fill="#A3E635"/><text x="0" y="-39" text-anchor="middle" fill="#F8FAFC" font-size="13" font-weight="700">BUILD</text><text x="0" y="42" text-anchor="middle" fill="#64748B" font-size="10">code / systems</text></g>
+  <g transform="translate(897 235)"><circle r="15" fill="#0b171c" stroke="#F59E0B"/><circle r="5" fill="#F59E0B"/><text x="0" y="-39" text-anchor="middle" fill="#F8FAFC" font-size="13" font-weight="700">VALIDATE</text><text x="0" y="42" text-anchor="middle" fill="#64748B" font-size="10">polish / test</text></g>
+  <g transform="translate(1095 235)"><circle r="15" fill="#0b171c" stroke="#F59E0B"/><circle r="5" fill="#F59E0B" filter="url(#glow)"><animate attributeName="r" values="4;8;4" dur="1.7s" repeatCount="indefinite"/></circle><text x="0" y="-39" text-anchor="middle" fill="#F8FAFC" font-size="13" font-weight="700">SHIP</text><text x="0" y="42" text-anchor="middle" fill="#64748B" font-size="10">deploy / learn</text></g>
+</g>
+
+<rect x="46" y="314" width="1108" height="44" rx="12" fill="#081218" stroke="#17343b"/>
+<text x="66" y="341" fill="#94A3B8" font-size="11" font-family="ui-monospace,Menlo,Consolas,monospace">PRINCIPLE:</text>
+<text x="148" y="341" fill="#F8FAFC" font-size="11" font-family="ui-monospace,Menlo,Consolas,monospace">make the product understandable first, expressive second, and maintainable all the way through.</text>
+</svg>
