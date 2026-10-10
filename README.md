@@ -1,117 +1,264 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/thirdnaturedev/thirdnaturedev/main/assets/nocturne-hero.svg" width="100%" alt="Third Nature — For Things That Don’t Exist Yet." />
+# THIRD NATURE
+
+### Full-Stack Developer · SaaS Developer · Creative Engineer
+
+**Building complete products from interface to infrastructure.**
+
+`WEB` · `APIs` · `DATABASES` · `AUTH` · `SaaS` · `DESKTOP` · `AUTOMATION` · `DEPLOYMENT`
 
 <br/>
 
-### Creative developer building products where **design, systems, motion, and engineering** feel inseparable.
-
-<sub>WEB · DESKTOP · SaaS · IMMERSIVE EXPERIENCES · PRODUCT SYSTEMS</sub>
-
-<br/><br/>
-
-<a href="mailto:wearethirdnature@gmail.com"><img src="https://img.shields.io/badge/CONTACT-0A0908?style=for-the-badge&logo=gmail&logoColor=E6D2B1" alt="Email" /></a>
-&nbsp;&nbsp;
-<a href="https://github.com/thirdnaturedev?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE_WORK-0A0908?style=for-the-badge&logo=github&logoColor=F1E7D7" alt="Explore work" /></a>
+<a href="mailto:wearethirdnature@gmail.com"><img src="https://img.shields.io/badge/EMAIL-wearethirdnature%40gmail.com-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" /></a>
+&nbsp;
+<a href="https://github.com/thirdnaturedev?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-EXPLORE-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" /></a>
+&nbsp;
+<img src="https://komarev.com/ghpvc/?username=thirdnaturedev&label=PROFILE+VIEWS&color=0D1117&style=for-the-badge" alt="Profile views" />
 
 </div>
 
-<br/>
+---
 
-## THIRD NATURE
+## `developer.profile`
 
-**For Things That Don’t Exist Yet.**
+```ts
+const thirdNature = {
+  role: ["Full-Stack Developer", "SaaS Developer", "Creative Engineer"],
+  status: "building / experimenting / shipping",
+  focus: [
+    "product engineering",
+    "multi-tenant SaaS",
+    "desktop applications",
+    "immersive interfaces",
+    "automation and delivery"
+  ],
+  principle: "For Things That Don’t Exist Yet."
+};
+```
 
-I build software with a point of view — products that are technically complete, visually authored, and memorable because the interaction, system logic, motion, and identity all belong to the same world.
+I build products **end-to-end** — from frontend interaction and product logic to APIs, authentication, databases, background workflows, deployment, and production refinement.
 
-The work moves between **creative development, full-stack engineering, SaaS architecture, desktop software, motion systems, product design, and immersive interfaces**. I care about the invisible structure underneath the surface just as much as what people see.
+The goal is not to collect technologies. It is to understand the complete system well enough to make every layer work together.
 
-<br/>
+---
 
-<img src="https://raw.githubusercontent.com/thirdnaturedev/thirdnaturedev/main/assets/nocturne-worlds.svg" width="100%" alt="Third Nature selected worlds" />
+## `full-stack.architecture`
 
-<br/>
+```text
+CLIENTS
+├── Web
+│   ├── Next.js
+│   ├── React
+│   ├── TypeScript
+│   ├── Tailwind CSS
+│   └── Motion / Three.js / GSAP
+│
+├── Native / Desktop
+│   ├── Swift / SwiftUI
+│   ├── macOS
+│   ├── Windows
+│   └── Android Studio
+│
+APPLICATION
+├── Node.js
+├── .NET / C#
+├── Python
+├── REST APIs
+├── Authentication
+├── Authorization / RBAC
+└── Business workflows
+
+DATA
+├── PostgreSQL
+├── Supabase
+├── MongoDB
+├── Multi-tenant data models
+└── State + persistence
+
+DELIVERY
+├── Git
+├── GitHub
+├── GitHub Actions
+├── Vercel
+├── CI / automation
+└── Production deployment
+```
+
+---
+
+## `technology.stack`
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=ts,js,python,swift,cs,nextjs,react,tailwind,nodejs,dotnet,supabase,postgres,mongodb,git,github,githubactions,figma,vscode,xcode,androidstudio&perline=10" alt="Full stack technology stack" />
+
+</div>
+
+### Frontend / Product UI
+
+`Next.js` · `React` · `TypeScript` · `JavaScript` · `Tailwind CSS` · `SwiftUI` · `Three.js` · `Framer Motion` · `GSAP`
+
+### Backend / Application Logic
+
+`Node.js` · `.NET` · `C#` · `Python` · `REST APIs` · `Authentication` · `RBAC` · `Multi-tenant architecture`
+
+### Data / Platform
+
+`Supabase` · `PostgreSQL` · `MongoDB` · `SQL` · `Data modeling` · `State management`
+
+### Engineering / Delivery
+
+`Git` · `GitHub` · `GitHub Actions` · `Vercel` · `VS Code` · `Xcode` · `Android Studio` · `Figma`
+
+---
+
+## `selected.builds`
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
 ### Casa Sombrero
-A cinematic restaurant experience built around atmosphere, motion, scene-driven navigation, spatial depth, and a separate touch-first mobile ordering flow.
+**Immersive restaurant platform**
 
-`Next.js` · `React` · `TypeScript` · `Three.js` · `GSAP`
+A cinematic product experience combining a scene-driven desktop website with a separate touch-first mobile ordering flow.
 
-[Live experience →](https://casa-sombrero.vercel.app)  
-[Showcase →](https://github.com/thirdnaturedev/casa-sombrero-showcase)
+**Frontend**  
+Next.js · React · TypeScript · Tailwind
+
+**Experience**  
+Three.js · React Three Fiber · GSAP · Framer Motion
+
+**Engineering focus**  
+Responsive behavior · asset systems · interaction logic · performance · deployment
+
+[Live](https://casa-sombrero.vercel.app) · [Showcase](https://github.com/thirdnaturedev/casa-sombrero-showcase)
 
 </td>
 <td width="33%" valign="top">
 
 ### Orbitail
-A web + desktop product spanning macOS and Windows. The product is being developed as one system across multiple surfaces rather than separate apps with separate identities.
+**Web + desktop product**
 
-`Web` · `macOS` · `Windows` · `Product Engineering`
+A product engineered across multiple surfaces rather than as isolated applications.
 
-**Active development**
+**Surfaces**  
+Web · macOS · Windows
+
+**Engineering focus**  
+Shared product logic · desktop UX · distribution · cross-platform consistency
+
+**Status**  
+Active development
 
 </td>
 <td width="34%" valign="top">
 
 ### SynapseHR
-A multi-tenant HRMS SaaS focused on employee operations, role-based workflows, payroll-oriented systems, scalable tenant architecture, and desktop-first administration.
+**Multi-tenant HRMS SaaS**
 
-`SaaS` · `HR Tech` · `Full Stack` · `Multi-tenant`
+A full-stack HR platform designed around structured workflows and tenant-aware product architecture.
 
-**In development**
+**System areas**  
+Authentication · RBAC · employee operations · payroll-oriented workflows
+
+**Data**  
+Multi-tenant models · PostgreSQL-oriented architecture
+
+**Status**  
+In development
 
 </td>
 </tr>
 </table>
 
-<br/>
+---
 
-<img src="https://raw.githubusercontent.com/thirdnaturedev/thirdnaturedev/main/assets/nocturne-practice.svg" width="100%" alt="Third Nature practice" />
+## `how.i.build`
 
-<br/>
+```text
+01  DEFINE
+    product behavior, users, roles, constraints, system boundaries
+
+02  MODEL
+    entities, relationships, tenant boundaries, state, permissions
+
+03  BUILD FRONTEND
+    interface, responsive behavior, interaction, motion, accessibility
+
+04  BUILD BACKEND
+    APIs, authentication, business rules, integrations, workflows
+
+05  CONNECT DATA
+    schemas, queries, persistence, validation, data ownership
+
+06  AUTOMATE
+    GitHub Actions, builds, deployment, repeatable engineering tasks
+
+07  SHIP
+    performance, edge cases, deployment, production testing, refinement
+```
+
+---
+
+## `engineering.focus`
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### Product thinking
-I start with behavior, hierarchy, constraints, user flow, and the reason the product should exist. Features are shaped around the experience rather than added as isolated pieces.
+### Product Engineering
 
-### Interaction language
-Motion, timing, transitions, spatial hierarchy, touch behavior, and responsive states are treated as part of the product architecture — not decoration at the end.
+- Full product flows instead of isolated screens
+- Reusable component and state architecture
+- Role-based application behavior
+- Multi-surface product consistency
+- Performance and production readiness
+- Maintainable structure for future growth
 
 </td>
 <td width="50%" valign="top">
 
-### System structure
-APIs, authentication, roles, data boundaries, workflow logic, multi-tenant architecture, and state models are designed so the product can grow without becoming inconsistent.
+### Systems Engineering
 
-### Finish
-The last layer matters: performance, edge cases, deployment, visual polish, motion refinement, and the details that make a product feel complete rather than merely functional.
+- API boundaries and business logic
+- Authentication and authorization
+- Multi-tenant data isolation
+- Database design and persistence
+- CI / automation workflows
+- Deployment and operational reliability
 
 </td>
 </tr>
 </table>
 
-<br/>
+---
 
-## LIVE SIGNAL
+## `github.telemetry`
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats-iota-inky-76.vercel.app/api?username=thirdnaturedev&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=EADCC5&icon_color=C9AB7B&text_color=9F9588&bg_color=050505" alt="GitHub stats" />
-<img width="49%" src="https://github-readme-stats-iota-inky-76.vercel.app/api/top-langs/?username=thirdnaturedev&layout=compact&langs_count=8&hide_border=true&title_color=EADCC5&text_color=9F9588&bg_color=050505" alt="Top languages" />
+<img width="49%" src="https://github-readme-stats-iota-inky-76.vercel.app/api?username=thirdnaturedev&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&theme=github_dark" alt="GitHub stats" />
+<img width="49%" src="https://github-readme-stats-iota-inky-76.vercel.app/api/top-langs/?username=thirdnaturedev&layout=compact&langs_count=8&hide_border=true&theme=github_dark" alt="Top languages" />
 
 <br/><br/>
 
-<sub>THIRD NATURE · CREATIVE DEVELOPMENT / PRODUCT SYSTEMS / MOTION / ENGINEERING</sub>
+<img width="100%" src="https://streak-stats.demolab.com/?user=thirdnaturedev&hide_border=true&theme=github-dark-blue" alt="GitHub streak" />
 
-<br/><br/>
+</div>
 
-<a href="mailto:wearethirdnature@gmail.com"><img src="https://img.shields.io/badge/wearethirdnature%40gmail.com-050505?style=for-the-badge&logo=gmail&logoColor=D8BD93" alt="Email Third Nature" /></a>
+---
+
+<div align="center">
+
+### CURRENTLY BUILDING
+
+`immersive web` · `desktop products` · `SaaS systems` · `automation` · `full-stack product architecture`
+
+<br/>
+
+**THIRD NATURE**  
+*For Things That Don’t Exist Yet.*
 
 </div>
