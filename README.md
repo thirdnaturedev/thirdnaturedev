@@ -10,18 +10,7 @@
   <img src="https://img.shields.io/badge/STATUS-BUILDING-111827?style=for-the-badge&logo=github&logoColor=A3E635" alt="Building" />
 </p>
 
-</div>
-
-## 🏅 GitHub Badges
-
-<div align="center">
-
-<a href="https://github.com/thirdnaturedev"><img src="https://img.shields.io/badge/GitHub-thirdnaturedev-0D1117?style=for-the-badge&logo=github&logoColor=F8FAFC" alt="GitHub profile" /></a>
-<img src="https://img.shields.io/github/followers/thirdnaturedev?style=for-the-badge&logo=github&label=Followers&labelColor=0D1117&color=0F766E" alt="GitHub followers" />
-<img src="https://komarev.com/ghpvc/?username=thirdnaturedev&label=Profile%20Views&color=F59E0B&style=for-the-badge" alt="Profile views" />
-<img src="https://img.shields.io/badge/Open%20Source-Active-0F766E?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="Open source active" />
-<img src="https://img.shields.io/badge/Building-Products-111827?style=for-the-badge&logo=githubactions&logoColor=5EEAD4" alt="Building products" />
-<img src="https://img.shields.io/badge/Shipping-Experiments-111827?style=for-the-badge&logo=rocket&logoColor=F59E0B" alt="Shipping experiments" />
+<img src="https://raw.githubusercontent.com/thirdnaturedev/thirdnaturedev/main/assets/premium-strip.svg" width="100%" alt="Third Nature animated status strip" />
 
 </div>
 
