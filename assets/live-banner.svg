@@ -63,7 +63,7 @@
 
 <!-- live glass cards -->
 <g font-family="ui-monospace,Menlo,Consolas,monospace">
-  <g><rect x="430" y="318" width="154" height="92" rx="16" fill="url(#glass)" stroke="#24434b"/><text x="450" y="345" fill="#607781" font-size="9.5">PUBLIC REPOS</text><text x="450" y="382" fill="#F8FAFC" font-size="27" font-weight="700">4</text><circle cx="557" cy="381" r="4" fill="#5EEAD4"><animate attributeName="opacity" values="1;.2;1" dur="1.5s" repeatCount="indefinite"/></circle></g>
+  <g><rect x="430" y="318" width="154" height="92" rx="16" fill="url(#glass)" stroke="#24434b"/><text x="450" y="345" fill="#607781" font-size="9.5">PUBLIC REPOS</text><text x="450" y="382" fill="#F8FAFC" font-size="27" font-weight="700">3</text><circle cx="557" cy="381" r="4" fill="#5EEAD4"><animate attributeName="opacity" values="1;.2;1" dur="1.5s" repeatCount="indefinite"/></circle></g>
   <g><rect x="596" y="318" width="154" height="92" rx="16" fill="url(#glass)" stroke="#24434b"/><text x="616" y="345" fill="#607781" font-size="9.5">FOLLOWERS</text><text x="616" y="382" fill="#F8FAFC" font-size="27" font-weight="700">0</text><path d="M691 383 l11 -11 11 11" fill="none" stroke="#A3E635" stroke-width="2"/></g>
   <g><rect x="762" y="318" width="154" height="92" rx="16" fill="url(#glass)" stroke="#24434b"/><text x="782" y="345" fill="#607781" font-size="9.5">FOLLOWING</text><text x="782" y="382" fill="#F8FAFC" font-size="27" font-weight="700">0</text><circle cx="888" cy="381" r="4" fill="#F59E0B"/></g>
   <g><rect x="928" y="318" width="166" height="92" rx="16" fill="url(#glass)" stroke="#24434b"/><text x="948" y="345" fill="#607781" font-size="9.5">LATEST SIGNAL</text><text x="948" y="380" fill="#A3E635" font-size="12" font-weight="700">thirdnaturedev</text><text x="948" y="399" fill="#64748B" font-size="9">recent push</text></g>
@@ -74,7 +74,7 @@
   <rect x="430" y="437" width="664" height="58" rx="14" fill="#070d11" stroke="#19343c"/>
   <circle cx="453" cy="466" r="5" fill="#A3E635"><animate attributeName="r" values="3.5;6.5;3.5" dur="1.8s" repeatCount="indefinite"/></circle>
   <text x="470" y="462" fill="#CBD5E1" font-size="10.5">LIVE GITHUB SYNC</text>
-  <text x="470" y="479" fill="#64748B" font-size="9.5">13 Oct 2026 · 06:42 UTC</text>
+  <text x="470" y="479" fill="#64748B" font-size="9.5">13 Oct 2026 · 12:43 UTC</text>
   <text x="1072" y="470" text-anchor="end" fill="#5EEAD4" font-size="10">BUILDING · EXPERIMENTING · SHIPPING</text>
   <rect x="1081" y="448" width="2" height="35" fill="#5EEAD4"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
 </g>
